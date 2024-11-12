@@ -4,7 +4,7 @@ body {
   gap: 30px;
   font-family: Poppins;
   background-image: url(../img/bg2.jpg);
-  position: absolute;
+  position: relative;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -32,7 +32,6 @@ nav a:hover {
   height: auto;
   float: left;
   transition: all 0.5s;
-  margin-left: 15%;
 }
 
 header img:hover {
@@ -48,10 +47,3 @@ header img:hover {
   font-size: 45px;
 }
 
-.trabajos {
-  width: 50%;
-  height: auto;
-  margin-left: 25%;
-  margin-top: 2.5%;
-  margin-bottom: 0.5%;
-}
